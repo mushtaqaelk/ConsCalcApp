@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveContainer, Cell } from 'recharts';
 
 //--- GLOBAL STATE & NAVIGATION CONTEXT ---//
-const AppContext = createContext();
+const AppContext = createContext(); 
 
 const AppProvider = ({ children }) => {
     const [activePage, setActivePage] = useState('landing');
